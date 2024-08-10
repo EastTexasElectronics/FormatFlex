@@ -1,0 +1,47 @@
+import pandas as pd
+
+# Data for Disney movies
+data = {
+    "Title": [
+        "Snow White and the Seven Dwarfs", "Pinocchio", "Fantasia", "Dumbo", "Bambi",
+        "Cinderella", "Alice in Wonderland", "Peter Pan", "Sleeping Beauty", "101 Dalmatians",
+        "The Jungle Book", "The Little Mermaid", "Beauty and the Beast", "Aladdin", "The Lion King",
+        "Pocahontas", "Toy Story", "The Hunchback of Notre Dame", "Hercules", "Mulan",
+        "Tarzan", "Toy Story 2", "Monsters, Inc.", "Lilo & Stitch", "Finding Nemo",
+        "The Incredibles", "Cars", "Ratatouille", "WALL-E", "Up",
+        "Tangled", "Toy Story 3", "Frozen", "Big Hero 6", "Zootopia",
+        "Moana", "Coco", "Incredibles 2", "Frozen II", "Onward",
+        "Soul", "Luca", "Encanto", "Turning Red", "Lightyear"
+    ],
+    "Release Date": [
+        "1937-12-21", "1940-02-23", "1940-11-13", "1941-10-23", "1942-08-21",
+        "1950-02-15", "1951-07-28", "1953-02-05", "1959-01-29", "1961-01-25",
+        "1967-10-18", "1989-11-17", "1991-11-22", "1992-11-25", "1994-06-24",
+        "1995-06-23", "1995-11-22", "1996-06-21", "1997-06-27", "1998-06-19",
+        "1999-06-18", "1999-11-24", "2001-11-02", "2002-06-21", "2003-05-30",
+        "2004-11-05", "2006-06-09", "2007-06-29", "2008-06-27", "2009-05-29",
+        "2010-11-24", "2010-06-18", "2013-11-27", "2014-11-07", "2016-03-04",
+        "2016-11-23", "2017-11-22", "2018-06-15", "2019-11-22", "2020-03-06",
+        "2020-12-25", "2021-06-18", "2021-11-24", "2022-03-11", "2022-06-17"
+    ],
+    "Fandom": [
+        "Disney Princess", "Disney Classics", "Disney Classics", "Disney Classics", "Disney Classics",
+        "Disney Princess", "Disney Classics", "Disney Classics", "Disney Princess", "Disney Classics",
+        "Disney Classics", "Disney Princess", "Disney Princess", "Disney Classics", "Disney Classics",
+        "Disney Princess", "Pixar", "Disney Classics", "Disney Classics", "Disney Princess",
+        "Disney Classics", "Pixar", "Pixar", "Disney Classics", "Pixar",
+        "Pixar", "Pixar", "Pixar", "Pixar", "Pixar",
+        "Disney Princess", "Pixar", "Disney Princess", "Disney Classics", "Disney Classics",
+        "Disney Princess", "Pixar", "Pixar", "Disney Princess", "Pixar",
+        "Pixar", "Pixar", "Disney Classics", "Pixar", "Pixar"
+    ]
+}
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Save the DataFrame to an Excel file
+file_path = "/mnt/data/disney_movies.xlsx"
+df.to_excel(file_path, index=False)
+
+file_path

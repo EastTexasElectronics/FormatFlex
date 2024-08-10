@@ -14,6 +14,10 @@
 		8CFB9DC92C67C2DC00F6B880 /* FormatFlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB9DC82C67C2DC00F6B880 /* FormatFlexTests.swift */; };
 		8CFB9DD32C67C2DC00F6B880 /* FormatFlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB9DD22C67C2DC00F6B880 /* FormatFlexUITests.swift */; };
 		8CFB9DD52C67C2DC00F6B880 /* FormatFlexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB9DD42C67C2DC00F6B880 /* FormatFlexUITestsLaunchTests.swift */; };
+		8CFB9DE22C67C35900F6B880 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB9DE12C67C35900F6B880 /* FeedbackView.swift */; };
+		8CFB9DE32C67C35900F6B880 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB9DE12C67C35900F6B880 /* FeedbackView.swift */; };
+		8CFB9DE62C67C39D00F6B880 /* CoreXLSX in Frameworks */ = {isa = PBXBuildFile; productRef = 8CFB9DE52C67C39D00F6B880 /* CoreXLSX */; };
+		8CFB9DE92C67C3A900F6B880 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 8CFB9DE82C67C3A900F6B880 /* Yams */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,7 @@
 		8CFB9DCE2C67C2DC00F6B880 /* FormatFlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormatFlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFB9DD22C67C2DC00F6B880 /* FormatFlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatFlexUITests.swift; sourceTree = "<group>"; };
 		8CFB9DD42C67C2DC00F6B880 /* FormatFlexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatFlexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CFB9DE12C67C35900F6B880 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFB9DE92C67C3A900F6B880 /* Yams in Frameworks */,
+				8CFB9DE62C67C39D00F6B880 /* CoreXLSX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +104,7 @@
 			children = (
 				8CFB9DB62C67C2DB00F6B880 /* FormatFlexApp.swift */,
 				8CFB9DB82C67C2DB00F6B880 /* ContentView.swift */,
+				8CFB9DE12C67C35900F6B880 /* FeedbackView.swift */,
 				8CFB9DBA2C67C2DC00F6B880 /* Assets.xcassets */,
 				8CFB9DBF2C67C2DC00F6B880 /* FormatFlex.entitlements */,
 				8CFB9DBC2C67C2DC00F6B880 /* Preview Content */,
@@ -145,6 +153,10 @@
 			dependencies = (
 			);
 			name = FormatFlex;
+			packageProductDependencies = (
+				8CFB9DE52C67C39D00F6B880 /* CoreXLSX */,
+				8CFB9DE82C67C3A900F6B880 /* Yams */,
+			);
 			productName = FormatFlex;
 			productReference = 8CFB9DB32C67C2DB00F6B880 /* FormatFlex.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +229,10 @@
 				Base,
 			);
 			mainGroup = 8CFB9DAA2C67C2DB00F6B880;
+			packageReferences = (
+				8CFB9DE42C67C39D00F6B880 /* XCRemoteSwiftPackageReference "CoreXLSX" */,
+				8CFB9DE72C67C3A900F6B880 /* XCRemoteSwiftPackageReference "Yams" */,
+			);
 			productRefGroup = 8CFB9DB42C67C2DB00F6B880 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +277,7 @@
 			files = (
 				8CFB9DB92C67C2DB00F6B880 /* ContentView.swift in Sources */,
 				8CFB9DB72C67C2DB00F6B880 /* FormatFlexApp.swift in Sources */,
+				8CFB9DE22C67C35900F6B880 /* FeedbackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +295,7 @@
 			files = (
 				8CFB9DD52C67C2DC00F6B880 /* FormatFlexUITestsLaunchTests.swift in Sources */,
 				8CFB9DD32C67C2DC00F6B880 /* FormatFlexUITests.swift in Sources */,
+				8CFB9DE32C67C35900F6B880 /* FeedbackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +368,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +425,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -420,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = FormatFlex/FormatFlex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -447,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = FormatFlex/FormatFlex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -581,6 +601,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CFB9DE42C67C39D00F6B880 /* XCRemoteSwiftPackageReference "CoreXLSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/CoreXLSX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.2;
+			};
+		};
+		8CFB9DE72C67C3A900F6B880 /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CFB9DE52C67C39D00F6B880 /* CoreXLSX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CFB9DE42C67C39D00F6B880 /* XCRemoteSwiftPackageReference "CoreXLSX" */;
+			productName = CoreXLSX;
+		};
+		8CFB9DE82C67C3A900F6B880 /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CFB9DE72C67C3A900F6B880 /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8CFB9DAB2C67C2DB00F6B880 /* Project object */;
 }

@@ -1,0 +1,227 @@
+[
+    {
+      "title": "Snow White and the Seven Dwarfs",
+      "release_date": "1937-12-21",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Pinocchio",
+      "release_date": "1940-02-23",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Fantasia",
+      "release_date": "1940-11-13",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Dumbo",
+      "release_date": "1941-10-23",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Bambi",
+      "release_date": "1942-08-21",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Cinderella",
+      "release_date": "1950-02-15",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Alice in Wonderland",
+      "release_date": "1951-07-28",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Peter Pan",
+      "release_date": "1953-02-05",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Sleeping Beauty",
+      "release_date": "1959-01-29",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "101 Dalmatians",
+      "release_date": "1961-01-25",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "The Jungle Book",
+      "release_date": "1967-10-18",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "The Little Mermaid",
+      "release_date": "1989-11-17",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Beauty and the Beast",
+      "release_date": "1991-11-22",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Aladdin",
+      "release_date": "1992-11-25",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "The Lion King",
+      "release_date": "1994-06-24",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Pocahontas",
+      "release_date": "1995-06-23",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Toy Story",
+      "release_date": "1995-11-22",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "The Hunchback of Notre Dame",
+      "release_date": "1996-06-21",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Hercules",
+      "release_date": "1997-06-27",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Mulan",
+      "release_date": "1998-06-19",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Tarzan",
+      "release_date": "1999-06-18",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Toy Story 2",
+      "release_date": "1999-11-24",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Monsters, Inc.",
+      "release_date": "2001-11-02",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Lilo & Stitch",
+      "release_date": "2002-06-21",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Finding Nemo",
+      "release_date": "2003-05-30",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "The Incredibles",
+      "release_date": "2004-11-05",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Cars",
+      "release_date": "2006-06-09",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Ratatouille",
+      "release_date": "2007-06-29",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "WALL-E",
+      "release_date": "2008-06-27",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Up",
+      "release_date": "2009-05-29",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Tangled",
+      "release_date": "2010-11-24",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Toy Story 3",
+      "release_date": "2010-06-18",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Frozen",
+      "release_date": "2013-11-27",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Big Hero 6",
+      "release_date": "2014-11-07",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Zootopia",
+      "release_date": "2016-03-04",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Moana",
+      "release_date": "2016-11-23",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Coco",
+      "release_date": "2017-11-22",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Incredibles 2",
+      "release_date": "2018-06-15",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Frozen II",
+      "release_date": "2019-11-22",
+      "fandom": "Disney Princess"
+    },
+    {
+      "title": "Onward",
+      "release_date": "2020-03-06",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Soul",
+      "release_date": "2020-12-25",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Luca",
+      "release_date": "2021-06-18",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Encanto",
+      "release_date": "2021-11-24",
+      "fandom": "Disney Classics"
+    },
+    {
+      "title": "Turning Red",
+      "release_date": "2022-03-11",
+      "fandom": "Pixar"
+    },
+    {
+      "title": "Lightyear",
+      "release_date": "2022-06-17",
+      "fandom": "Pixar"
+    }
+  ]

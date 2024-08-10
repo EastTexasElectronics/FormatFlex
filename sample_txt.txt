@@ -1,0 +1,46 @@
+Title,Release Date,Fandom
+Snow White and the Seven Dwarfs,1937-12-21,Disney Princess
+Pinocchio,1940-02-23,Disney Classics
+Fantasia,1940-11-13,Disney Classics
+Dumbo,1941-10-23,Disney Classics
+Bambi,1942-08-21,Disney Classics
+Cinderella,1950-02-15,Disney Princess
+Alice in Wonderland,1951-07-28,Disney Classics
+Peter Pan,1953-02-05,Disney Classics
+Sleeping Beauty,1959-01-29,Disney Princess
+101 Dalmatians,1961-01-25,Disney Classics
+The Jungle Book,1967-10-18,Disney Classics
+The Little Mermaid,1989-11-17,Disney Princess
+Beauty and the Beast,1991-11-22,Disney Princess
+Aladdin,1992-11-25,Disney Classics
+The Lion King,1994-06-24,Disney Classics
+Pocahontas,1995-06-23,Disney Princess
+Toy Story,1995-11-22,Pixar
+The Hunchback of Notre Dame,1996-06-21,Disney Classics
+Hercules,1997-06-27,Disney Classics
+Mulan,1998-06-19,Disney Princess
+Tarzan,1999-06-18,Disney Classics
+Toy Story 2,1999-11-24,Pixar
+"Monsters, Inc.",2001-11-02,Pixar
+Lilo & Stitch,2002-06-21,Disney Classics
+Finding Nemo,2003-05-30,Pixar
+The Incredibles,2004-11-05,Pixar
+Cars,2006-06-09,Pixar
+Ratatouille,2007-06-29,Pixar
+WALL-E,2008-06-27,Pixar
+Up,2009-05-29,Pixar
+Tangled,2010-11-24,Disney Princess
+Toy Story 3,2010-06-18,Pixar
+Frozen,2013-11-27,Disney Princess
+Big Hero 6,2014-11-07,Disney Classics
+Zootopia,2016-03-04,Disney Classics
+Moana,2016-11-23,Disney Princess
+Coco,2017-11-22,Pixar
+Incredibles 2,2018-06-15,Pixar
+Frozen II,2019-11-22,Disney Princess
+Onward,2020-03-06,Pixar
+Soul,2020-12-25,Pixar
+Luca,2021-06-18,Pixar
+Encanto,2021-11-24,Disney Classics
+Turning Red,2022-03-11,Pixar
+Lightyear,2022-06-17,Pixar
