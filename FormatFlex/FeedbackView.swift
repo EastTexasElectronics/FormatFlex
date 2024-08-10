@@ -21,7 +21,7 @@ struct FeedbackView: View {
     /// A state variable that stores the start time of the conversion.
     @State private var startTime: Date = Date()
     
-    /// A state variable that stores the end time of the conversion, if available.
+    /// A state variable that stores the end time of the conversion, if availabl
     @State private var endTime: Date?
     
     var body: some View {
