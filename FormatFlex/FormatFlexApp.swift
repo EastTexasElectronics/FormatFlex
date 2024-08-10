@@ -22,7 +22,7 @@ struct FormatFlex: App {
         }
     }
     
-    /// Opens the help page in the default web browser.
+    /// Opens the help page in the default web browser
     private func openHelpPage() {
         if let url = URL(string: "https://www.roberthavelaar.dev/data-file-converter-app#help") {
             NSWorkspace.shared.open(url)
